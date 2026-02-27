@@ -8,7 +8,7 @@
 
 A **dual-layer machine learning system** that simultaneously optimizes API performance and provides real-time security threat detection. This intelligent API gateway uses advanced ML algorithms to predict traffic patterns, optimize resource allocation, and detect malicious activities including SQL injection, credential stuffing, and DDoS attacks.
 
-![System Architecture](docs/images/architecture.png)
+
 
 ---
 
@@ -58,7 +58,7 @@ A **dual-layer machine learning system** that simultaneously optimizes API perfo
 ---
 
 ## 🏗 System Architecture
-<img width="940" height="1286" alt="image" src="https://github.com/user-attachments/assets/b0009b01-8773-4d53-a236-82589b3abb92" />
+![System Architecture](docs/images/architecture.png)
 
 
 ---
