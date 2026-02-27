@@ -164,6 +164,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Run the application
 python run.py
+```
 
 📦 Installation
 Step 1: Clone Repository
