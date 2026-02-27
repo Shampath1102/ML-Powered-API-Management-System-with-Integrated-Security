@@ -165,6 +165,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Run the application
 python run.py
 ```
+---
 
 📦 Installation
 Step 1: Clone Repository
@@ -207,6 +208,9 @@ python scripts/generate_data.py --requests 50000 --attacks 0.2
 Step 6: Train ML Models
 bash
 python ml/train.py --model all --data data/generated_traffic.csv
+
+---
+
 ⚙️ Configuration
 Environment Variables
 Create a .env file in the root directory:
@@ -247,6 +251,7 @@ config/models.yaml - ML model parameters
 config/security.yaml - Security rules
 
 config/dashboard.yaml - Dashboard settings
+---
 
 📱 Usage
 Starting the API Server
@@ -274,6 +279,9 @@ curl -X POST "http://localhost:8000/api/login" \
 for i in {1..200}; do
   curl -X GET "http://localhost:8000/api/users" &
 done
+
+---
+
 📚 API Documentation
 Base URL
 text
@@ -345,6 +353,9 @@ response = requests.post(
     }
 )
 print(response.json())  # Returns predicted traffic volume
+
+---
+
 📊 Dashboard
 Access Dashboard
 text
@@ -414,6 +425,8 @@ Model parameters
 
 User permissions
 
+---
+
 📊 Dataset
 Data Sources
 Dataset	Source	Size	Purpose
@@ -436,6 +449,9 @@ python scripts/generate_data.py --type attacks --count 20000
 
 # Generate mixed dataset
 python scripts/generate_data.py --normal 100000 --attacks 20000 --output dataset.csv
+
+---
+
 🧠 Model Training
 Training Scripts
 bash
@@ -479,6 +495,9 @@ ml/models/
 ├── attack_classifier.pkl
 ├── scaler.pkl
 └── encoder.pkl
+
+---
+
 🧪 Testing
 Running Tests
 bash
@@ -514,6 +533,9 @@ pip install locust
 
 # Run load tests
 locust -f tests/locustfile.py --host=http://localhost:8000
+
+---
+
 🐳 Deployment
 Docker Deployment
 Build Docker Image
@@ -606,6 +628,9 @@ bash
 aws ecs create-cluster --cluster-name api-ml-cluster
 aws ecs register-task-definition --cli-input-json file://task-def.json
 aws ecs create-service --cluster-name api-ml-cluster --service-name api-ml-service --task-definition api-ml-task
+
+---
+
 📈 Results
 Performance Metrics
 Metric	Value	Improvement
