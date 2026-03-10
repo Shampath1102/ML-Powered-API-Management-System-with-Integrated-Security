@@ -3,8 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-green)](https://fastapi.tiangolo.com)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-orange)](https://scikit-learn.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/yourusername/api-ml-security/pulls)
 
 A **dual-layer machine learning system** that simultaneously optimizes API performance and provides real-time security threat detection. This intelligent API gateway uses advanced ML algorithms to predict traffic patterns, optimize resource allocation, and detect malicious activities including SQL injection, credential stuffing, and DDoS attacks.
 
